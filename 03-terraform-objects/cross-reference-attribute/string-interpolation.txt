@@ -1,0 +1,5 @@
+String Interpolation:
+---------------------
+
+
+${..}  ==> the syntax indicates that terraform will replace the expression inside the curly braces with its calculated value
