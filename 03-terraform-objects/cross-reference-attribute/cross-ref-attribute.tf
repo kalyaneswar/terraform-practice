@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
 resource "aws_security_group" "my_sg" {
   name        = "allow_ssh_public"
   description = "Allow SSH inbound traffic and all outbound traffic"
